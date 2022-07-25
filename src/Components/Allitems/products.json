@@ -1,0 +1,299 @@
+[
+  {
+        
+    "id": "1",
+
+    "img":"Images/first.webp",
+
+    "name": "Round Nature Gold",
+
+    
+    "price": "10999"
+
+  },
+  {
+        
+    "id": "2",
+
+    "img":"Images/second.webp",
+
+    "name": "Hypnotic Rose Gold",
+
+    "charges":"8 % ON MAKING CHARGES",
+    
+    "price": "120099"
+
+  },
+  {
+        
+    "id": "3",
+
+    "img":"Images/third.webp",
+
+    "name": "Lustrous Diamond",
+
+    "charges":"8 % ON MAKING CHARGES",
+    
+    "price": "33099"
+
+  },{
+        
+    "id": "4",
+
+    "img":"Images/fourth.webp",
+
+    "name": "Radiant Gold Drop",
+
+    "charges":"8 % ON MAKING CHARGES",
+    
+    "price": "41039"
+
+  },{
+        
+    "id": "5",
+
+    "img":"Images/five.webp",
+
+    "name": "Gold Tear Drop",
+
+    "charges":"8 % ON MAKING CHARGES",
+    
+    "price": "51099"
+
+  },{
+        
+    "id": "6",
+
+    "img":"Images/six.webp",
+
+    "name": "Yellow Gold",
+
+    "charges":"8 % ON MAKING CHARGES",
+    
+    "price": "61089"
+
+  },{
+        
+    "id": "7",
+
+    "img":"Images/seven.webp",
+
+    "name": "Rava Work Gold",
+
+    "charges":"8 % ON MAKING CHARGES",
+    
+    "price": "109990"
+
+  },{
+        
+    "id": "8",
+
+    "img":"Images/eight.webp",
+
+    "name": "Cutwork Diamond",
+
+    "charges":"8 % ON MAKING CHARGES",
+    
+    "price": "111099"
+
+  },{
+        
+    "id": "9",
+
+    "img":"Images/nine.webp",
+
+    "name": "Geometric Diamond",
+
+    "charges":"8 % ON MAKING CHARGES",
+    
+    "price": "234500"
+
+  },{
+        
+    "id": "10",
+
+    "img":"Images/ten.webp",
+
+    "name": "Ruby And Diamond",
+
+    "charges":"8 % ON MAKING CHARGES",
+    
+    "price": "75867"
+
+  },{
+        
+    "id": "11",
+
+    "img":"Images/eleven.webp",
+
+    "name": "Diamond Earrings",
+
+    "charges":"8 % ON MAKING CHARGES",
+    
+    "price": "109922"
+
+  },{
+        
+    "id": "12",
+
+    "img":"Images/twelve.webp",
+
+    "name": "Cocktail ring",
+
+    "charges":"8 % ON MAKING CHARGES",
+    
+    "price": "111099"
+
+  },{
+        
+    "id": "13",
+
+    "img":"Images/thirteen.webp",
+
+    "name": "Fancy Ruby Diamond",
+
+    "charges":"8 % ON MAKING CHARGES",
+    
+    "price": "21399"
+
+  },{
+        
+    "id": "14",
+
+    "img":"Images/fourteen.webp",
+
+    "name": "Gold Mesh Stud Earrings",
+
+    "charges":"8 % ON MAKING CHARGES",
+    
+    "price": "1099"
+
+  },{
+        
+    "id": "15",
+
+    "img":"Images/fifteen.webp",
+
+    "name": "Gold Mesh Stud Earrings",
+
+    "charges":"8 % ON MAKING CHARGES",
+    
+    "price": "1099"
+
+  },{
+        
+    "id": "16",
+
+    "img":"Images/sixteen.webp",
+
+    "name": "Gold Mesh Stud Earrings",
+
+    "charges":"8 % ON MAKING CHARGES",
+    
+    "price": "1099"
+
+  },{
+        
+    "id": "17",
+
+    "img":"Images/seventeen.webp",
+
+    "name": "Gold Mesh Stud Earrings",
+
+    "charges":"8 % ON MAKING CHARGES",
+    
+    "price": "1099"
+
+  },{
+        
+    "id": "18",
+
+    "img":"Images/eighteen.webp",
+
+    "name": "Gold Mesh Stud Earrings",
+
+    "charges":"8 % ON MAKING CHARGES",
+    
+    "price": "1099"
+
+  },{
+        
+    "id": "19",
+
+    "img":"Images/nineteen.webp",
+
+    "name": "Gold Mesh Stud Earrings",
+
+    "charges":"8 % ON MAKING CHARGES",
+    
+    "price": "1099"
+
+  },{
+        
+    "id": "20",
+
+    "img":"Images/twenty.webp",
+
+    "name": "Gold Mesh Stud Earrings",
+
+    "charges":"8 % ON MAKING CHARGES",
+    
+    "price": "1099"
+
+  },{
+        
+    "id": "21",
+
+    "img":"Images/twentyone.webp",
+
+    "name": "Gold Mesh Stud Earrings",
+
+    "charges":"8 % ON MAKING CHARGES",
+    
+    "price": "1099"
+
+  },
+  {
+        
+    "id": "22",
+
+    "img":"Images/twentytwo.webp",
+
+    "name": "Gold Mesh Stud Earrings",
+
+    "charges":"8 % ON MAKING CHARGES",
+    
+    "price": "1099"
+
+  },{
+        
+    "id": "23",
+
+    "img":"Images/twentythree.webp",
+
+    "name": "Gold Mesh Stud Earrings",
+
+    "charges":"8 % ON MAKING CHARGES",
+    
+    "price": "1099"
+
+  },
+  {
+        
+    "id": "24",
+
+    "img":"Images/twentyfour.webp",
+
+    "name": "Gold Mesh Stud Earrings",
+
+    "charges":"8 % ON MAKING CHARGES",
+    
+    "price": "1099"
+
+  }
+
+ 
+
+
+
+  ]

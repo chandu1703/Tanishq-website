@@ -1,0 +1,57 @@
+.filter-btn{
+    position: fixed;
+    top: 85vh;
+    right: 10vw;
+    background-color: grey;
+    border: none;
+    z-index: 1;
+    width: 30vw;
+    display: none;
+} 
+.filter-contain{
+  display:none;
+  background-color: white;
+}
+.main1{
+    position: absolute;
+    width: 17rem;
+    height: auto;
+    padding: 0 13px;
+    margin-top: -15vh;
+    border-bottom:#777 ;
+    margin-left: 50px;
+    display: none;
+}
+.filter-title{
+     top: 13vh;
+  }
+@media  (min-width:360px)  and (max-width:844px){
+     .filter-contain{
+        display: block;
+     }
+     .main1{
+        display: block;
+        background-color: white;
+        top: 24vh;
+        left: -5vh;
+        width: 90vw;
+        position: fixed;
+     }
+      .filter-title{
+        font-size: 25px;
+      }
+      .filter-btn{
+        position: fixed;
+        top: 85vh;
+        right: 10vw;
+        background-color: grey;
+        border: none;
+        z-index: 1;
+        width: 30vw;
+        display: block;
+    } 
+    .back-btn{
+        border: none;
+        background: none;
+    }
+}

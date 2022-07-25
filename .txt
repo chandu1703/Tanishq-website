@@ -1,0 +1,615 @@
+ if(items.title==='AllJewellery'){
+            return(
+              <li key={items.id} className={items.cName} onMouseEnter={()=>showdropdown('AllJewellery')} onMouseLeave={()=>showdropdown('')}>
+                <Link to={items.path}>{items.title}</Link>
+                {dropdown === 'AllJewellery' && <DropDown/>}
+              </li>
+            )
+          }
+          <li key={items.id} className={items.cName} onMouseEnter={()=>showdropdown('AllJewellery')} onMouseLeave={()=>showdropdown('')}  >
+      <Link to={items.path}>{items.title}</Link>
+      <ul className={DropDown? 'alljewellery-submenu-clicked' : 'alljewellery-submenu'} onClick={()=>setDropDown(!DropDown)}>
+        {items.items.map((item)=>{
+            return(
+                <li key={item.id}  >
+                    <Link to={item.path}  className={item.cName}  onClick={()=>setDropDown(false)} >{item.title}</Link>
+                </li>
+            )
+        })}
+    </ul>
+    </li>
+  )
+
+
+
+  onMouseEnter={() => showdropdown(items.title)} onMouseLeave={() => showdropdown('')}  
+
+
+
+
+correct for all::::::
+
+  {dropdown === items.title &&
+                    // <div className='container'>
+                      <ul className='alljewellery-submenu' >
+                        {items.items?.map((item) => {
+                          return (
+                            <li key={item.id}  >
+                              <Link to={item.path} className={item.cName}   >{item.title}</Link>
+                            </li>
+                          )
+                        })}
+                      </ul>
+                      }
+
+
+
+
+                      in progress:::
+
+
+
+                      export const NavHeaders=[
+    {
+        id:1,
+        title:'AllJewellery',
+        path:'/',
+        cName:'nav-item',
+        items: [
+            {
+              name:'category',
+              sub:[
+                {
+                    id: 1,
+                    title: "AllJewellery",
+                    path: "/",
+                    cName: "submenu-item",
+                  },
+                  {
+                    id: 2,
+                    title: "EarRings",
+                    path: "/earrings",
+                    cName: "submenu-item",
+                  },
+                  {
+                    id: 3,
+                    title: "Pendandts",
+                    path: "/pendandts",
+                    cName: "submenu-item",
+                  },
+                  {
+                         id:4,
+                        title:'FingerRings',
+                        path:'/fingerrings',
+                        cName:'submenu-item'
+                  }
+              ]
+
+
+
+
+
+              .nav-item a{
+ /* text-decoration: none; */
+ color: black;
+ font-size: 14px;
+ color: black;
+ font-style: sans-serif;
+ text-decoration: none;
+ /* padding: 18px 0px; */
+ margin-left: 30px;
+ font-weight: bolder;
+}
+
+
+
+
+
+
+  {
+
+    id: "2",
+
+    img:'https://staticimg.titan.co.in/Tanishq/Catalog/504002SXDABA02.jpg?impolicy=pqmed&imwidth=640',
+    
+    name: "Diamond & Gold Stud Earrings",
+    
+    charges:'8 % ON MAKING CHARGES',
+
+    price: "909",
+
+    description: "Mens Casual Shirts",
+
+  },
+
+  {
+
+    id: "3",
+
+    img:'https://staticimg.titan.co.in/Tanishq/Catalog/500073DRAABA32_1.jpg?impolicy=pqmed&imwidth=640',
+    
+    name: "JAINISH",
+    charges:'8 % ON MAKING CHARGES',
+
+    price: "699",
+
+    description: "Women Jwellery",
+
+  },
+
+  {
+
+    id: "4",
+
+    category: "Men",
+
+   img:'https://staticimg.titan.co.in/Tanishq/Catalog/503520DBFABA00_1.jpg?impolicy=pqmed&imwidth=640',
+    
+    name: "NEUDIS",
+    charges:'8 % ON MAKING CHARGES',
+
+    price: "999",
+
+    description: "Mens Casual Shirts",
+
+  },
+
+  {
+
+    id: "5",
+
+    category: "Men",
+
+   img:'https://staticimg.titan.co.in/Tanishq/Catalog/513919DPOABA00_1.jpg?impolicy=pqmed&imwidth=640',
+    
+    name: "US Polo ,Denim",
+    charges:'8 % ON MAKING CHARGES',
+
+    price: "1249",
+
+    description: "Mens Casual Shirts",
+},
+{
+
+        id: "6",
+  
+        category: "Men",
+  
+       img:'https://staticimg.titan.co.in/Tanishq/Catalog/511819DKCABA00.jpg?impolicy=pqmed&imwidth=640',
+        
+        name: "ZALORA BASICS",
+        charges:'8 % ON MAKING CHARGES',
+  
+        price: "2499",
+  
+        description: "Mens Casual Shirts",
+  
+      },
+      {
+
+          id: "7",
+    
+          category: "Men",
+    
+         img:'https://staticimg.titan.co.in/Tanishq/Catalog/511920SDHABA00.jpg?impolicy=pqmed&imwidth=640',
+          
+          name: "US Polo ,Denim",
+          charges:'8 % ON MAKING CHARGES',
+          price: "1249",
+    
+          description: "Mens Casual Shirts",
+    },
+    {
+
+      id: "8",
+
+      category: "Men",
+
+     img:'https://staticimg.titan.co.in/Tanishq/Catalog/50F1D1SFRADA02_1.jpg?impolicy=pqmed&imwidth=640',
+     charges:'8 % ON MAKING CHARGES',
+      name: "US Polo ,Denim",
+
+      price: "1249",
+
+      description: "Mens Casual Shirts",
+},
+{
+
+  id: "9",
+
+  category: "Men",
+
+ img:'https://staticimg.titan.co.in/Tanishq/Catalog/501169SDHAAA29_1.jpg?impolicy=pqmed&imwidth=640',
+ charges:'8 % ON MAKING CHARGES',
+  name: "US Polo ,Denim",
+
+  price: "1249",
+
+  description: "Mens Casual Shirts",
+},
+{
+
+id: "10",
+
+category: "Men",
+
+img:'https://staticimg.titan.co.in/Tanishq/Catalog/55D1I2SOZAAA29_1.jpg?impolicy=pqmed&imwidth=640',
+charges:'8 % ON MAKING CHARGES',
+name: "US Polo ,Denim",
+
+price: "1249",
+
+description: "Mens Casual Shirts",
+},
+{
+
+id: "11",
+
+category: "Men",
+
+img:'https://staticimg.titan.co.in/Tanishq/Catalog/513919DPOABA00_1.jpg?impolicy=pqmed&imwidth=640',
+
+name: "US Polo ,Denim",
+charges:'8 % ON MAKING CHARGES',
+price: "1249",
+
+description: "Mens Casual Shirts",
+},
+{
+
+id: "5",
+
+category: "Men",
+
+img:'https://staticimg.titan.co.in/Tanishq/Catalog/513919DPOABA00_1.jpg?impolicy=pqmed&imwidth=640',
+
+name: "US Polo ,Denim",
+charges:'8 % ON MAKING CHARGES',
+price: "1249",
+
+description: "Mens Casual Shirts",
+},
+{
+
+id: "5",
+
+category: "Men",
+
+img:'https://staticimg.titan.co.in/Tanishq/Catalog/513919DPOABA00_1.jpg?impolicy=pqmed&imwidth=640',
+
+name: "US Polo ,Denim",
+
+price: "1249",
+charges:'8 % ON MAKING CHARGES',
+description: "Mens Casual Shirts",
+},
+{
+
+id: "5",
+
+category: "Men",
+
+img:'https://staticimg.titan.co.in/Tanishq/Catalog/513919DPOABA00_1.jpg?impolicy=pqmed&imwidth=640',
+
+name: "US Polo ,Denim",
+charges:'8 % ON MAKING CHARGES',
+price: "1249",
+
+description: "Mens Casual Shirts",
+},
+{
+
+id: "5",
+
+category: "Men",
+charges:'8 % ON MAKING CHARGES',
+img:'https://staticimg.titan.co.in/Tanishq/Catalog/513919DPOABA00_1.jpg?impolicy=pqmed&imwidth=640',
+
+name: "US Polo ,Denim",
+
+price: "1249",
+
+description: "Mens Casual Shirts",
+},
+{
+
+id: "5",
+
+category: "Men",
+charges:'8 % ON MAKING CHARGES',
+img:'https://staticimg.titan.co.in/Tanishq/Catalog/513919DPOABA00_1.jpg?impolicy=pqmed&imwidth=640',
+
+name: "US Polo ,Denim",
+
+price: "1249",
+
+description: "Mens Casual Shirts",
+},
+{
+
+id: "5",
+
+category: "Men",
+
+img:'https://staticimg.titan.co.in/Tanishq/Catalog/513919DPOABA00_1.jpg?impolicy=pqmed&imwidth=640',
+
+name: "US Polo ,Denim",
+charges:'8 % ON MAKING CHARGES',
+price: "1249",
+
+description: "Mens Casual Shirts",
+},
+{
+
+id: "5",
+
+category: "Men",
+
+img:'https://staticimg.titan.co.in/Tanishq/Catalog/513919DPOABA00_1.jpg?impolicy=pqmed&imwidth=640',
+
+name: "US Polo ,Denim",
+charges:'8 % ON MAKING CHARGES',
+price: "1249",
+
+description: "Mens Casual Shirts",
+},
+{
+
+id: "5",
+
+category: "Men",
+
+img:'https://staticimg.titan.co.in/Tanishq/Catalog/513919DPOABA00_1.jpg?impolicy=pqmed&imwidth=640',
+charges:'8 % ON MAKING CHARGES',
+name: "US Polo ,Denim",
+
+price: "1249",
+
+description: "Mens Casual Shirts",
+},
+{
+
+id: "5",
+
+category: "Men",
+
+img:'https://staticimg.titan.co.in/Tanishq/Catalog/513919DPOABA00_1.jpg?impolicy=pqmed&imwidth=640',
+charges:'8 % ON MAKING CHARGES',
+name: "US Polo ,Denim",
+
+price: "1249",
+
+description: "Mens Casual Shirts",
+},
+{
+
+id: "5",
+
+category: "Men",
+charges:'8 % ON MAKING CHARGES',
+img:'https://staticimg.titan.co.in/Tanishq/Catalog/513919DPOABA00_1.jpg?impolicy=pqmed&imwidth=640',
+
+name: "US Polo ,Denim",
+
+price: "1249",
+
+description: "Mens Casual Shirts",
+},
+{
+
+id: "5",
+
+category: "Men",
+charges:'8 % ON MAKING CHARGES',
+img:'https://staticimg.titan.co.in/Tanishq/Catalog/513919DPOABA00_1.jpg?impolicy=pqmed&imwidth=640',
+
+name: "US Polo ,Denim",
+
+price: "1249",
+
+description: "Mens Casual Shirts",
+},
+{
+
+id: "5",
+
+category: "Men",
+charges:'8 % ON MAKING CHARGES',
+img:'https://staticimg.titan.co.in/Tanishq/Catalog/513919DPOABA00_1.jpg?impolicy=pqmed&imwidth=640',
+
+name: "US Polo ,Denim",
+
+price: "1249",
+
+description: "Mens Casual Shirts",
+},
+{
+
+id: "5",
+
+category: "Men",
+charges:'8 % ON MAKING CHARGES',
+img:'https://staticimg.titan.co.in/Tanishq/Catalog/513919DPOABA00_1.jpg?impolicy=pqmed&imwidth=640',
+
+name: "US Polo ,Denim",
+
+price: "1249",
+
+description: "Mens Casual Shirts",
+},
+{
+
+id: "5",
+
+category: "Men",
+
+img:'https://staticimg.titan.co.in/Tanishq/Catalog/513919DPOABA00_1.jpg?impolicy=pqmed&imwidth=640',
+charges:'8 % ON MAKING CHARGES',
+name: "US Polo ,Denim",
+
+price: "1249",
+
+description: "Mens Casual Shirts",
+},
+{
+
+id: "5",
+
+category: "Men",
+
+img:'https://staticimg.titan.co.in/Tanishq/Catalog/513919DPOABA00_1.jpg?impolicy=pqmed&imwidth=640',
+charges:'8 % ON MAKING CHARGES',
+name: "US Polo ,Denim",
+
+price: "1249",
+
+description: "Mens Casual Shirts",
+},
+{
+
+id: "5",
+
+category: "Men",
+
+img:'https://staticimg.titan.co.in/Tanishq/Catalog/513919DPOABA00_1.jpg?impolicy=pqmed&imwidth=640',
+
+name: "US Polo ,Denim",
+
+price: "1249",
+charges:'8 % ON MAKING CHARGES',
+description: "Mens Casual Shirts",
+},
+{
+
+id: "5",
+
+category: "Men",
+
+img:'https://staticimg.titan.co.in/Tanishq/Catalog/513919DPOABA00_1.jpg?impolicy=pqmed&imwidth=640',
+charges:'8 % ON MAKING CHARGES',
+name: "US Polo ,Denim",
+
+price: "1249",
+
+description: "Mens Casual Shirts",
+},
+{
+
+id: "5",
+
+category: "Men",
+
+img:'https://staticimg.titan.co.in/Tanishq/Catalog/513919DPOABA00_1.jpg?impolicy=pqmed&imwidth=640',
+
+name: "US Polo ,Denim",
+price: "1249",
+
+description: "Mens Casual Shirts",
+}
+
+
+
+
+
+ // }
+              //        else if(items.title==='Gold'){
+              //         return(
+              //           <li key={items.id} className={items.cName}  onMouseEnter={()=>showdropdown('Gold')} onMouseLeave={()=>showdropdown('')}  >
+              //   <Link to={items.path}>{items.title}</Link>
+              //   <ul className={DropDown? 'alljewellery-submenu-clicked' : 'alljewellery-submenu'} onClick={()=>setDropDown(!DropDown)}>
+              //     {items.items.map((item)=>{
+              //         return(
+              //             <li key={item.id}  >
+              //                 <Link to={item.path}  className={item.cName}  onClick={()=>setDropDown(false)} >{item.title}</Link>
+              //             </li>
+              //         )
+              //     })}
+              // </ul>
+              // </li>
+              //         )
+              //         }
+              //   else if (items.title === 'Diamonds') {
+              //     return (
+              //       <li key={items.id} className={items.cName} onMouseEnter={() => showdropdown('Diamonds')} onMouseLeave={() => showdropdown('')}>
+              //         <Link to={items.path} className='links'>{items.title}</Link>
+              //         {dropdown === 'Diamonds' && <DiamondDrop />}
+              //       </li>
+              //     )
+              //   }
+                // return (
+                //   <li key={items.id} className={items.cName}>
+                //     <Link to={items.path}  >{items.title}</Link>
+                //   </li>
+                // )
+
+
+                                  {/* {items.sub?.map((item) => {
+      return (
+        <li key={item.id}  >
+          <Link to={item.path} className={item.cName}   >{item.title}</Link>
+        </li>
+      )
+    })} */}
+
+
+
+     {item.items.map((e)=>{
+                    return(
+                        <>
+                        <div>
+                            <ul  >
+                            <li key={e.id}><Link to={e.path} className={e.cName}>
+                                    {e.title}
+                                  </Link></li>
+                            </ul>
+                        </div> 
+                        <div className="sec">
+                            {/* {item.items1.map((i)=>{
+                                return(
+                                    <>
+                                    <div>
+                                        <ul key={i.id}>
+                                            <li>
+                                                {i.title}
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    </>
+                                )
+                            })} */}
+
+
+
+
+
+
+
+
+
+
+
+
+                            <ul key={e.id}>
+                        <div className="fir">
+                            
+                            <li>{e.title}</li>
+                            
+                        </div> 
+                        <div className="sec">
+                           
+                            {item.items1.map((i)=>{
+                                return(
+                                    <>
+                                    <div>
+                                        
+                                            <li>
+                                                {i.title}
+                                            </li>
+                                        
+                                    </div>
+                                    </>
+                                )
+                            })}
+                            
+                            </div>
+                            </ul>
