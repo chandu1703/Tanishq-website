@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./NavBar.scss";
-import { NavHeaders } from "./navitems/NavItems";
-import "./dropdown/dropdown.scss";
+import { NavHeaders } from "./NavItems";
+import "../dropdown/dropdown.scss"
 import { IoMdMenu } from "react-icons/io";
  
 
-import Menu from "./menubar/Menu";
+import Menu from "../menubar/Menu";
 function NavBar() {
   const [dropdown, showdropdown] = useState("");
   const [menu, setMenu] = useState(true);

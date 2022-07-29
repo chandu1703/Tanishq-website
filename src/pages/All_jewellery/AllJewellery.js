@@ -8,6 +8,7 @@ import { AiOutlineLine } from "react-icons/ai";
 import { AiOutlineFilter } from "react-icons/ai";
 import { BiArrowBack } from "react-icons/bi";
 
+
 const AllJewellery = () => {
   const [checkBox, setCheckBox] = useState({});
   const [filtershow, SetFiltershow] = useState(false);
