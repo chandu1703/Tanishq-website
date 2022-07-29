@@ -1,0 +1,30 @@
+.breadcrumb{
+    position: absolute;
+    top: 15vh;
+    /* left: 20vw; */
+    text-decoration: none;
+    width: 15vw;
+    border: 2px solid #777;
+    align-items: center;
+}
+.breadflex{
+    display: flex;
+}
+.link{
+    text-decoration: none;
+    color:blue;
+    cursor: pointer;
+}
+ol{
+    display: flex;
+    list-style-type: none;
+}
+
+.breadflex ol{
+     
+        list-style-type: none;
+        display: flex;
+        color:gold;
+        font-weight: bolder;
+}
+ 

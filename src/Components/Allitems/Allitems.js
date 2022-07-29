@@ -2,6 +2,7 @@ import React from "react";
 import Products from "./products.json";
 import "./Allitems.scss";
 const Allitems = () => {
+  
   return (
     <div className="container1">
       {Products?.map((product) => (

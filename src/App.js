@@ -13,12 +13,14 @@ import Rivaah from './pages/Rivaah/Rivaah';
 import Mia from './pages/Mia/Mia';
 import Store from './pages/Store/Store';
 import Search from './pages/Search/Search';
+import BreadCrumbApp from './Components/Breadcrumb/BreadCrumb';
+ 
 function App() {
   return (
     <>  
     <BrowserRouter>
     <NavBar/>
-
+     <BreadCrumbApp/>
     <Routes>
       <Route path='/' element={<AllJewellery/>}/>
       <Route path='/alljewellery' element={<AllJewellery/>}/>
