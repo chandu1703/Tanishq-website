@@ -88,7 +88,7 @@ function NavBar() {
               width="30px"
               height="30px"
               alt="location logo"
-              src="https://www.tanishq.co.in/wps/wcm/connect/tanishq/8db4d9e7-8a24-4486-a867-e507a3c3f6be/store-locataor.svg?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_90IA1H80O0RT10QIMVSTFU3006-8db4d9e7-8a24-4486-a867-e507a3c3f6be-m2i4h5c"
+              src="https://png.pngtree.com/png-vector/20190419/ourmid/pngtree-vector-location-icon-png-image_956422.jpg"
             />
           </Link>
           <Link to="/search">
